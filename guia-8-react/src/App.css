@@ -1,0 +1,28 @@
+*{
+  margin:0%,
+  padding:0%
+}
+
+body{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(20, 20, 236), pink);
+}
+
+p{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  box-shadow: 0px 0px 15px white;
+  background: rgba(255, 255, 255, 0.233);
+}
+
+button{
+  align-items: center;
+  padding: 2%;
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: rgba(255, 2, 179, 0.678);
+
+}
