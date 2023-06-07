@@ -33,19 +33,36 @@ button{
   padding :0%;
 }
 
-body{
+/* body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to bottom right ,rgb(11, 134, 72), rgb(134, 63, 226));
+} */
+
+body{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(rgb(109, 11, 134), rgb(240, 184, 63));
 }
 
-th{
+/* th{
   color: rgb(255, 255, 255);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 1.2rem;
+} */
+
+
+.container{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 6%;
+    border-style: double;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
-button{
-  background-color: wheat;
+.container2 img{
+  padding: 6%
 }
