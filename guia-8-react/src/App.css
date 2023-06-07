@@ -1,3 +1,4 @@
+/*
 *{
   margin:0%;
   padding :0%;
@@ -25,4 +26,26 @@ button{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: rgba(255, 2, 179, 0.678);
 
+}
+*/ 
+*{
+  margin:0%;
+  padding :0%;
+}
+
+body{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right ,rgb(11, 134, 72), rgb(134, 63, 226));
+}
+
+th{
+  color: rgb(255, 255, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+
+button{
+  background-color: wheat;
 }

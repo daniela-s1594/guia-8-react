@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import Counter from './componentes/component1/Counter'
+//import { useState } from 'react'
+import ListaTareas from './componentes/component1/ListaTareas'
+//import Counter from './componentes/component1/Counter'
 import './App.css'
 
 function App() {
   return (
     <>
-      <Counter/>
+      <ListaTareas/>
     </>
   )
 }
